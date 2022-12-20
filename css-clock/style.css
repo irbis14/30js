@@ -1,0 +1,38 @@
+* {
+    box-sizing: content-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    background-size: cover;
+}
+
+.clock {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock-face {
+    /*padding: 2rem;*/
+    position: relative;
+    width: 25rem;
+    height: 25rem;
+    border: 15px solid #FFFEFF;
+    border-radius: 50%;
+    transform: translateY(-3px); /*account for the height of the clock hands*/
+
+}
+
+.hand {
+    position: absolute;
+    top: 50%;
+    width: 50%;
+    height: 6px;
+    background: #040108;
+}
