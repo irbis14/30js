@@ -34,8 +34,14 @@ html {
     width: calc(50% - 2rem);
     height: 6px;
     background: #040108;
+    opacity: 0;
     transform-origin: 100%;
     transform: rotate(90deg);
-    transition: all 0.05s;
+    transition: all 0.5s;
     transition-timing-function: cubic-bezier(0.15, 2.18, 1, 1);
+}
+
+.hand.loaded {
+    opacity: 1;
+    transition: opacity 0.5s ease;
 }
