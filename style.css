@@ -33,3 +33,7 @@ body, html {
 .list, .list-item, .link {
     color: #FFFEFF;
 }
+
+.list-item {
+    padding-top: 10px;
+}
